@@ -7,12 +7,11 @@ namespace Day2
         static void Main(string[] args)
         {
             var noun = 0;
-            var verb = 0;
             int[] result = new int[input.Length];
 
             while (noun < 100)
             {
-                verb = 0;
+                int verb = 0;
                 while (verb < 100)
                 {
                     result = (int[])input.Clone();
@@ -38,7 +37,6 @@ namespace Day2
                         else
                         {
                             run = false;
-                            //break;
                         }
                     }
                     if (result[0] == 19690720) 

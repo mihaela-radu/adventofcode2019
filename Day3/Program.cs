@@ -106,9 +106,7 @@ namespace Day3
             var lowestNumberOfSteps = long.MaxValue;
             foreach (var move in moves)
             {
-
-                    if (move.Steps < lowestNumberOfSteps) lowestNumberOfSteps = move.Steps;
-                
+                if (move.Steps < lowestNumberOfSteps) lowestNumberOfSteps = move.Steps;
             }
             return lowestNumberOfSteps;
         }

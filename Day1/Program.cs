@@ -16,8 +16,6 @@ namespace AdventOfCodeDay1
                 if (fuelForFuel > 0) totalFuel += fuelForFuel;
             }
             while (fuelForFuel > 0);
-
-            //totalFuel = moduleMasses.Select(x => CalculateFuel(x)).Sum();
             Console.WriteLine("Total fuel: " + totalFuel);
         }
 
